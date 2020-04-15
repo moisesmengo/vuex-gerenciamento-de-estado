@@ -18,7 +18,7 @@ export default {
         },
     },
     */
-   computed: mapGetters(['valorTotal'])
+   computed: mapGetters('carrinho', ['valorTotal'])
 }
 </script>
 
